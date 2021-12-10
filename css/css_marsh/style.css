@@ -1,0 +1,122 @@
+:root{
+	--transparentWhite: rgba(240, 255, 255, 0);
+  --transparentWhite2: rgba(240, 255, 255, 0.7);
+}
+
+body{
+    margin: 0px;
+    background-image: url('../../img/img_marsh/bg.jpg');
+    /* min-height: 100%; */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    overflow: overlay;
+}
+@font-face {
+  font-family: trueLies;
+  src: url(TrueLies.ttf);
+}
+@font-face {
+  font-family: montserrat;
+  src: url(Montserrat-Regular.ttf);
+}
+/*----------------------------------NAV STYLING--------------------------------*/
+image{
+    position: relative;
+    text-align: center;
+}
+
+.logo-center{
+    position: absolute;
+    top: 37%;
+    left: 50%;
+    transform: translate(-45%, -50%);
+}
+
+#logo{
+    opacity: 50%;
+}
+
+.nav-link{
+    font-family: 'montserrat', sans-serif;
+    color: #f0ffff;
+    font-size: 12pt;
+    border-bottom: 3px solid transparent;
+}
+
+.nav-link:hover{
+    color: white;
+    border-bottom: 3px solid #06D6A0;
+}
+
+#Radiators{
+    font-family: 'truelies', sans-serif;
+    color: #f0ffff;
+    font-size: 24pt;
+}
+/*----------------------------------REST OF PAGE STYLING--------------------------------*/
+
+
+.gap1{
+    height: 15px;
+}
+
+.gap2{
+    height: 20px;
+}
+
+.heading {
+  margin: 15px;
+  font-family: trueLies;
+  color: #f0ffff;
+  font-size: 50px;
+  text-align: center;
+}
+/* body{
+    overflow: hidden;
+} */
+
+.card{
+	background-color: var(--transparentWhite) !important;
+    height: 480px;
+    padding:0
+}
+.card-body{
+    /* background-color: rgba(240, 255, 255, 0.7); */
+    background-color: var(--transparentWhite2) !important;
+    /* background-color: red; */
+    border-radius: 5px;
+}
+
+.space{
+    height: 70px;
+}
+
+proj-image{
+    /* height: 150px; */
+    width: 200px;
+}
+
+figcaption{
+    font-family: montserrat;
+    font-weight: bold;
+}
+
+.card-text{
+    font-family: montserrat;
+}
+
+.LAST-CARD{
+    visibility: hidden;
+}
+
+.link{
+    color: black;
+    text-decoration: none;
+}
+
+.link:hover{
+    color: #06D6A0;
+    text-decoration: none;
+}
