@@ -1,2 +1,2 @@
 # TheRadiators
-Single handedly created this using HTML, CSS, Bootstrap and JavaScript. Did this under lots of pressure, had to get this done within a week or two. Its only desktop friendly.
+Created this website using HTML, CSS, Bootstrap and JavaScript. Did this under lots of pressure, had to get this done within a week or two. Its only desktop friendly, some of the media files are removed for the sake of saving data bundles while downloading or uploading the files if you interested in viewing the zipped version of it. The website is still live for now, you can visit the website on www.theradiators.co.za.
